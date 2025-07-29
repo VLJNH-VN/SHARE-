@@ -1,5 +1,5 @@
 const { GoogleGenerativeAI } = require("@google/generative-ai");
-const genAI = new GoogleGenerativeAI('YOUR_GEMINI_API_KEY');
+const genAI = new GoogleGenerativeAI('AIzaSyC5fcDng9k34rVaPbtrHoTxqBukpYfp4uQ');
 
 async function generateMultipleChoiceQuestions(topic, count = 3) {
     try {
